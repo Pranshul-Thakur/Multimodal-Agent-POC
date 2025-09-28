@@ -21,7 +21,6 @@ cd multimodal-agent-poc
 
 # Create virtual environment
 python -m venv venv
-source venv/bin/activate   # Linux/Mac
 venv\Scripts\activate      # Windows
 
 # Install dependencies
@@ -43,13 +42,6 @@ pip install torch torchvision --index-url https://download.pytorch.org/whl/cu126
 ## Install FFmpeg
 
 **Windows**: Download [builds](https://www.gyan.dev/ffmpeg/builds/) and add to PATH.
-
-**Linux/Mac**:
-
-```bash
-sudo apt-get install ffmpeg    # Ubuntu/Debian
-brew install ffmpeg            # MacOS
-```
 
 ## Run Modes
 
