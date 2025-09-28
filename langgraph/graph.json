@@ -1,0 +1,15 @@
+{
+  "nodes": [
+    {"id": "n1", "kind": "planner"},
+    {"id": "n2", "kind": "retriever", "params": {"k": 3}},
+    {"id": "n3", "kind": "generator"},
+    {"id": "n4", "kind": "tool", "params": {"tool_name": "image_gen"}},
+    {"id": "n5", "kind": "tool", "params": {"tool_name": "tts"}}
+  ],
+  "edges": [
+    {"from": "n1", "to": "n2"},
+    {"from": "n2", "to": "n3"},
+    {"from": "n3", "to": "n4"},
+    {"from": "n3", "to": "n5"}
+  ]
+}

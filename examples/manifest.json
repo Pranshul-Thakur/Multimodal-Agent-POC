@@ -1,0 +1,18 @@
+{
+  "prompt": "A calm blue mountain landscape at sunset with birds flying",
+  "plan": {
+    "user_prompt": "A calm blue mountain landscape at sunset with birds flying",
+    "image_prompt": "A calm blue mountain landscape at sunset with birds flying -- cinematic, 4k, high detail",
+    "speech_text": "A calm blue mountain landscape at sunset with birds flying",
+    "music_prompt": "ambient background for: A calm blue mountain landscape at sunset with birds flying",
+    "video_length": 8
+  },
+  "artifacts": {
+    "image": "C:\\Users\\LENOVO\\Desktop\\vegaH\\examples\\outputs\\sample_image.png",
+    "speech": "C:\\Users\\LENOVO\\Desktop\\vegaH\\examples\\outputs\\sample_speech.wav",
+    "music": "C:\\Users\\LENOVO\\Desktop\\vegaH\\examples\\outputs\\sample_music.wav",
+    "audio": "C:\\Users\\LENOVO\\Desktop\\vegaH\\examples\\outputs\\final_audio.wav",
+    "video": "C:\\Users\\LENOVO\\Desktop\\vegaH\\examples\\outputs\\final_video.mp4"
+  },
+  "timestamp": "2025-09-28T16:50:23.018599Z"
+}

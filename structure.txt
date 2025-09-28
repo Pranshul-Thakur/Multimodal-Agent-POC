@@ -1,0 +1,34 @@
+multimodal-agent-poc/
+│
+├── README.md                # Overview, setup, demo instructions
+├── requirements.txt         # Python dependencies
+├── LICENSE                  # MIT (or Apache 2.0)
+│
+├── notebooks/
+│   └── poc_demo.ipynb       # Colab-ready notebook (main demo)
+│
+├── src/
+│   ├── orchestrator.py      # Agent logic: plans tasks, calls tools
+│   │
+│   ├── tools/               # Wrappers around models/tools
+│   │   ├── image_gen.py     # Stable Diffusion wrapper
+│   │   ├── tts.py           # Coqui TTS wrapper
+│   │   ├── music_gen.py     # MusicGen wrapper
+│   │   ├── speech_to_text.py# Whisper wrapper (optional)
+│   │   └── video.py         # ffmpeg-based video assembler
+│   │
+│   └── utils/
+│       ├── logger.py        # Logs steps + agent manifest (JSON)
+│       └── config.py        # Model paths, constants, env vars
+│
+├── examples/
+│   ├── outputs/
+│   │   ├── sample_image.png
+│   │   ├── sample_speech.wav
+│   │   ├── sample_music.wav
+│   │   └── sample_video.mp4
+│   └── manifest.json        # Example agent output manifest
+│
+└── tests/
+    ├── test_orchestrator.py
+    └── test_tools.py
